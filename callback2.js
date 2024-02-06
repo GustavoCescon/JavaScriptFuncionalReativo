@@ -9,4 +9,4 @@ function exibirConteudo(err, conteudo) {
 fs.readFile(caminho, {}, exibirConteudo);
 fs.readFile(caminho, (_, conteudo) => console.log(conteudo.toString()));
 
-fs.readFileSync(caminho)
+fs.readFileSync(caminho);
